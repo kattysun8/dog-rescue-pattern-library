@@ -1,5 +1,5 @@
 .btn {
-  background-image: linear-gradient(to bottom, var(--color-primary-light), var(--color-primary));
+  background-color: var(--color-primary);
 
   color: #fff;
 
@@ -8,13 +8,11 @@
 }
 
 .btn:hover {
-  background-image: none;
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
 }
 
 .btn-light {
-  background-image: none;
   background-color: var(--color-neutral);
   transition: all 250ms linear;
 
@@ -23,11 +21,9 @@
 
 .btn-light:hover {
   background-color: var(--color-primary);
-
 }
 
 .btn-ghost {
-  background-image: none;
   background-color: transparent;
   transition: all 250ms linear;
 
