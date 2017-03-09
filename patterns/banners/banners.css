@@ -1,0 +1,11 @@
+.banner {
+  overflow: hidden;
+  position: relative;
+  max-height: 500px;
+  width: 100%;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 0;
+}

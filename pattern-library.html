@@ -20,6 +20,8 @@
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#typography">Typography</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#grid">Grid</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#modules">Modules</a></li>
+              <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#icons">Icons</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#banners">Banners</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
           </ul>
@@ -371,6 +373,85 @@
 
 </section>
 
+        <section class="pattern" id="icons">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Icons</h2>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The sprite sheet contains the following icons that are available for use in the website. Combine the icons with <a href="https://modulifier.web-dev.tools">Modulifier</a> classes for lots of variability.</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="icons-icons">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/icons/1-icons.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;i class="icon i-192"&gt;
+  &lt;svg>&lt;use xlink:href="images/icons.svg#ID-FROM-LIST"/>&lt;/svg>
+&lt;/i>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="banners">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Banners</h2>
+    </div>
+
+  </div>
+
+  
+
+    <div class="pattern-details push" id="banners-basic-banner">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/banners/basic-banner.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="banner"&gt;
+  &lt;div>
+    &lt;img class="img-flex" src="http://placehold.it/300x150" alt="">
+  &lt;/div>
+
+  &lt;div class="banner-content pad-b pad-t text-center max-length pin-bc">
+    &lt;div class="wrapper">
+
+      &lt;div class="gutter-1-2">
+        &lt;h1 class="push-1-2">Make a difference today!&lt;/h1>
+        &lt;p class="push-1-2">Make a positive difference today in dog&apos;s life giving it the life it deserves! It&apos;s up to you and we believe in you!&lt;/p>
+      &lt;/div>
+
+      &lt;div class="gutter-1-2 banner-btn">
+        &lt;a class="btn btn-light" href="#">Adopt Now!&lt;/a>
+      &lt;/div>
+
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
         <section class="pattern" id="buttons">
   <div class="push">
     <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
@@ -415,8 +496,9 @@
       <h2 class="pattern-name peta push-1-8">Cards</h2>
         <nav class="pattern-nav milli">
           <ol class="list-group-inline pad-t-1-4 push-0">
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-application-icons">Application icons</a></li>
               <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-basic-card">Basic card</a></li>
-              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-icon-card">Icon card</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-happy-card">Happy card</a></li>
           </ol>
         </nav>
     </div>
@@ -425,11 +507,44 @@
 
   
 
+    <div class="pattern-details push" id="cards-application-icons">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Application icons</h3>
+          </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The application icons are for the 4 stages when completing the application form for adoption.</p>
+</div>
+            </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/cards/application-icons.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="form-icon text-center"&gt;
+  &lt;svg width="256" height="256" viewbox="0 0 256 256">
+    &lt;circle id="circle" cx="128" cy="128" r="121" fill="#231f20" />
+    &lt;path id="number" fill="#fff" d="M102 172h24.6V93.9q0-3.5.2-7.1l-20.5 17.5a5.5 5.5 0 0 1-1.6.9l-1.5.3a4.4 4.4 0 0 1-2.2-.5 3.9 3.9 0 0 1-1.4-1.2l-4.5-6.2L129.2 68h11.6v104h22.6v10.9H102z" />
+  &lt;/svg>
+  &lt;h6>Form stage title&lt;/h6>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
     <div class="pattern-details push" id="cards-basic-card">
         <div class="push">
           <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
             <h3 class="pattern-name tera push-1-8">Basic card</h3>
           </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The basic card should only be used for the Home page, as links to the three main links in the Navigation: Adopt Now, Happy Tails, and Application.</p>
+</div>
+            </div>
         </div>
 
       <div class="pattern-examples">
@@ -438,30 +553,50 @@
         </div>
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;div class="card island-1-2"&gt;
-  &lt;h2 class="push-1-1">For Adoption&lt;/h2>
-  &lt;p class="push-0">We have a variety of breeds, from puppys to full grown, all looking for love! Make a difference in a dog&apos;s life for the better!&lt;/p>
-  &lt;a href="#" class="btn btn-light">For Adoption&lt;/a>
+              <code><pre>&lt;div class="island-1-2"&gt;
+  &lt;div class="push">
+    &lt;img class="img-flex" src="http://placehold.it/300x150" alt="">
+  &lt;/div>
+  &lt;h2 class="push-1-2">Dogs For Adoption&lt;/h2>
+  &lt;p class="push-2">We have a variety of breeds, from puppies to full grown, all looking for love! Make a difference in a dog&apos;s life for the better!&lt;/p>
+  &lt;div class="text-center">
+    &lt;a href="#" class="btn">Adopt Now&lt;/a>
+  &lt;/div>
 &lt;/div>
 </pre></code>
             </div>
           </div>
       </div>
     </div>
-    <div class="pattern-details push" id="cards-icon-card">
+    <div class="pattern-details push" id="cards-happy-card">
         <div class="push">
           <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
-            <h3 class="pattern-name tera push-1-8">Icon card</h3>
+            <h3 class="pattern-name tera push-1-8">Happy card</h3>
           </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The happy card is the the Happy Tails page showing successful adoptions.</p>
+</div>
+            </div>
         </div>
 
       <div class="pattern-examples">
         <div class="gutter">
-          <iframe class="push" src="patterns/cards/icon-card.html" onload="resizeIframe(this)"></iframe>
+          <iframe class="push" src="patterns/cards/happy-card.html" onload="resizeIframe(this)"></iframe>
         </div>
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>
+              <code><pre>&lt;div class="card grid grid-stretch island-1-4"&gt;
+  &lt;div class="unit xs-1 s-1 m-1-2 l-2-5 island-1-4">
+    &lt;img class="img-flex" src="http://placehold.it/300x200" alt="">
+  &lt;/div>
+  &lt;div class="unit xs-1 s-1 m-1-2 l-3-5 unit-content-distribute island-1-4">
+    &lt;h2 class="push-1-2">Dogs For Adoption&lt;/h2>
+    &lt;p class="content-fill">We have a variety of breeds, from puppies to full grown, all looking for love! Make a difference in a dog&apos;s life for the better!&lt;/p>
+    &lt;div class="text-center content-shrink">
+      &lt;a href="#" class="btn">Adopt Now&lt;/a>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
 </pre></code>
             </div>
           </div>

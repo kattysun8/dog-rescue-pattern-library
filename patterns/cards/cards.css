@@ -1,3 +1,19 @@
 .card {
+  background-color: var(--color-neutral);
+}
 
+.form-icon #circle {
+  fill: var(--color-neutral);
+}
+
+.form-icon #number {
+  fill: #000;
+}
+
+.form-icon:hover #circle {
+  fill: var(--color-primary);
+}
+
+.form-icon:hover #number {
+  fill: #fff;
 }
