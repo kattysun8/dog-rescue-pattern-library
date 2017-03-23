@@ -35,7 +35,7 @@ blockquote, cite {
   color: var(--color-primary);
 }
 
-em, strong, del, ins, abbr, dfn, i, b, q, s, u {
+em, strong, del, ins, abbr, dfn, b, q, s, u {
   color: var(--color-primary);
 }
 

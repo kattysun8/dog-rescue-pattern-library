@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Basic card</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="../buttons/buttons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Oswald:400,700" rel="stylesheet">
+  <link href="form.css" rel="stylesheet">
+</head>
+<body>
+
+  <form class="max-length island" method="post" novalidate>
+    <div class="push-1-2 pad-t-1-2">
+      <input type="checkbox" id="agree" required aria-describedby="agree-error">
+      <label for="agree"> Can we call you at work?</label>
+      <p class="error-message milli island-1-4 push-0" id="agree-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#error-icon" /></svg></i>
+        <span class="icon-label">Please check off if we can call you at work</span>
+      </p>
+    </div>
+  </form>
+
+  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+</body>
+</html>

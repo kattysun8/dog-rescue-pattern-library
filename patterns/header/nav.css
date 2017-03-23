@@ -1,0 +1,43 @@
+.masthead {
+  background-color: #fff;
+  border-top: 0 solid var(--color-primary);
+  border-bottom: 0 solid var(--color-primary);
+  color: var(--color-primary);
+  background-size: 64px;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav a {
+  text-decoration: none;
+  border: 3px solid var(--color-primary);
+  border-radius: 0;
+  background-color: #fff;
+  color: var(--color-primary);
+}
+
+.nav a:hover {
+  background-size: 64px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+}
