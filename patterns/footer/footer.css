@@ -1,0 +1,41 @@
+.footer {
+  background-color: var(--color-primary-light);
+}
+
+.nav {
+  color: white;
+  text-decoration: none;
+  background-color: var(--color-primary);
+}
+
+.footer p {
+  color: #fff;
+}
+
+
+.nav {
+  padding: 15px 30px 15px;
+  margin-bottom: .5em;
+  color: #fff;
+  font-family: var(--font-primary);
+  background-color: var(--color-primary-light);
+  border: 2px solid #fff;
+}
+
+.nav:hover {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+.icon-nav a {
+  color: var(--color-primary);
+}
+
+.icon-nav a:hover {
+  color: var(--color-secondary);
+}
+
+.contact {
+  font-family: var(--font-primary);
+  color: #fff;
+}
