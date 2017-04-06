@@ -3,29 +3,25 @@
   background-color: var(--color-primary);
 }
 
-section {
-  text-align: left;
-}
-
 .img-flex {
   display: block;
   width: 100%;
 }
 
-h1 {
+.newsletter-body h1 {
   margin: 0;
   padding: 1rem;
   color: #fff;
 }
 
-h2 {
+.newsletter-body h2 {
   font-size: 1rem;
   padding: 0 1rem;
   margin-bottom: 0;
   color: #fff;
 }
 
-p {
+.newsletter-body p {
   margin: 0 1rem 1rem;
   color: #fff;
 }
@@ -82,7 +78,7 @@ p {
     vertical-align: middle;
   }
 
-  h1 {
+  .newsletter-body h1 {
     padding-top: 2rem;
   }
 
@@ -99,11 +95,11 @@ p {
     line-height: 1.5;
   }
 
-  section {
+  .newsletter-body {
     padding: 2rem 0;
   }
 
-  h1 {
+  .newsletter-body h1 {
     padding-top: 1rem;
   }
 }
@@ -118,7 +114,7 @@ p {
     max-width: 33.3333%;
   }
 
-  section {
+  .newsletter-body {
     text-align: center;
   }
 }
