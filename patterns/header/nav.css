@@ -6,7 +6,7 @@
   background-size: 64px;
 }
 
-h1 {
+.header h1 {
   display: inline-block;
 }
 
@@ -32,7 +32,7 @@ h1 {
 
 @media only screen and (min-width: 60em) {
 
-  .logo {
+  .logo-wrapper {
     text-align: left;
   }
 
