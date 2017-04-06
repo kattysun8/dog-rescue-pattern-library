@@ -23,7 +23,7 @@
 }
 
 .nav:hover {
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
   color: #fff;
 }
 
@@ -37,5 +37,9 @@
 
 .contact {
   font-family: var(--font-primary);
+  color: #fff;
+}
+
+.h3 {
   color: #fff;
 }

@@ -30,18 +30,19 @@ p {
   color: #fff;
 }
 
-a {
+.btn-news {
   text-decoration: none;
   padding: .5em .75em;
   display: inline-block;
-  margin: .5em 1.75em;
+  margin: .5em 1em;
   font-size: 1.125rem;
   text-align: center;
-  background-color: #fff;
+  background-color: var(--color-primary);
+  border: 2px solid #fff;
 }
 
-a:hover {
-  background-color: var(--color-secondary);
+.btn-news:hover {
+  background-color: var(--color-primary-light);
 }
 
 .text-section {
@@ -83,6 +84,10 @@ a:hover {
 
   h1 {
     padding-top: 2rem;
+  }
+
+  .btn {
+    text-align: center;
   }
 
 }
