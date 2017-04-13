@@ -5,6 +5,13 @@
   width: 100%;
 }
 
+.banner-image {
+  background-image: url("../images/banner-2.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
 .banner-content {
   position: absolute;
   bottom: 0;
