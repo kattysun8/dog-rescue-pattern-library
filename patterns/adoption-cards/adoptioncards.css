@@ -7,6 +7,7 @@
 .adoptioncard-image {
   background-position: center center;
   background-size: cover;
+  min-height: 15em;
 }
 
 @media only screen and (min-width: 60em) {

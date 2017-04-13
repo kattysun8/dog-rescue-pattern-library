@@ -39,6 +39,7 @@
 
 .btn-news:hover {
   background-color: var(--color-primary-light);
+  border: 2px solid #fff;
 }
 
 .text-section {

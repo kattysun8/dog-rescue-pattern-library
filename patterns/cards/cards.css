@@ -13,3 +13,7 @@
 .form-icon:hover #number {
   fill: #fff;
 }
+
+.btn:hover {
+  background-color: var(--color-primary-light);
+}

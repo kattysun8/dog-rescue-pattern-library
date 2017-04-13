@@ -6,8 +6,8 @@
   background-size: 64px;
 }
 
-.header h1 {
-  display: inline-block;
+.logo {
+  max-height: 5em;
 }
 
 .header-nav {

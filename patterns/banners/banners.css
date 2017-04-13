@@ -5,11 +5,20 @@
   width: 100%;
 }
 
-.banner-image {
-  background-image: url("../images/banner-2.jpg");
+.banner-image-1 {
+  background-image: url("../../images/banner.jpeg");
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: center center;
   background-size: cover;
+  min-height: 500px;
+}
+
+.banner-image-2 {
+  background-image: url("../../images/banner-2.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
 }
 
 .banner-content {
