@@ -57,6 +57,20 @@
   color: var(--color-secondary);
 }
 
+.section-reversed {
+  background-color: var(--color-primary);
+  color: #fff;
+  margin: 0;
+}
+
+.section-reversed .h1-text {
+  color: #fff;
+}
+
+.section-reversed .p-text {
+  color: #fff;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
