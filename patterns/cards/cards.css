@@ -17,3 +17,11 @@
 .btn:hover {
   background-color: var(--color-primary-light);
 }
+
+.form-icon .current {
+  fill: var(--color-primary);
+}
+
+.form-icon .numbercurrent {
+  fill: #fff;
+}
