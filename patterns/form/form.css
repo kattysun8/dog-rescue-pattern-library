@@ -1,6 +1,6 @@
 .is-validated input:invalid,
 .is-validated input[type="checkbox"]:invalid + label::before {
-  border-color: #f33;
+  border-color: var(--color-primary);
 }
 
 .error-message {
@@ -13,4 +13,9 @@
 .is-validated input:invalid + .error-message,
 .is-validated input:invalid + label + .error-message {
   display: block;
+}
+
+input,
+textarea {
+  border-color: var(--color-primary);
 }

@@ -114,6 +114,10 @@
     padding: 2rem 0;
   }
 
+  .content {
+    vertical-align: middle;
+  }
+
   .newsletter-body h1 {
     padding-top: 1rem;
   }
