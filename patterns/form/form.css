@@ -19,3 +19,7 @@ input,
 textarea {
   border-color: var(--color-primary);
 }
+
+input[type="checkbox"] + label::before {
+  border-color: var(--color-primary);
+}
