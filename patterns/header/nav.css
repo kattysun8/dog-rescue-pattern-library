@@ -30,6 +30,11 @@
   color: #fff;
 }
 
+.header-nav .current {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
 @media only screen and (min-width: 60em) {
 
   .logo-wrapper {
